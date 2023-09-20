@@ -1,0 +1,35 @@
+body, h1, form {
+    padding: 0;
+    border: 0;
+    margin: 0;
+    font-size: 100%;
+    font: inherit;
+}
+form {
+    padding: 20px 1px 20px 1px;
+    border: 1px black solid;
+    margin: 150px auto;
+    width: 255px;
+    text-align: center;
+    border-radius: 8px;
+}
+h1 {
+    font-family: 'Skranji', cursive;
+    font-size: 35px;
+    margin-bottom: 20px;
+}
+input {
+    font-family: 'Skranji', cursive;
+    margin-bottom: 10px;
+}
+label {
+    font-family: 'Skranji', cursive;
+}
+.email input {
+    margin-bottom: 30px;
+}
+input[type=submit] {
+    width: 240px;
+    border: 1px black solid;
+    border-radius: 4px;
+}
